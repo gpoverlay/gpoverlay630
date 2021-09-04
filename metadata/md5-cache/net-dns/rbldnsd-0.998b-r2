@@ -1,0 +1,15 @@
+BDEPEND=acct-group/rbldns acct-user/rbldns
+DEFINED_PHASES=compile configure install
+DEPEND=zlib? ( sys-libs/zlib )
+DESCRIPTION=DNS server designed to serve blacklist zones
+EAPI=7
+HOMEPAGE=https://rbldnsd.io/
+IUSE=ipv6 zlib
+KEYWORDS=amd64 ~hppa ~sparc x86
+LICENSE=GPL-2
+RDEPEND=zlib? ( sys-libs/zlib )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/spamhaus/rbldnsd/archive/0.998b.tar.gz -> rbldnsd-0.998b.tar.gz
+_eclasses_=multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa
+_md5_=92168f023634ddda215b20e886ce5f15

@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install setup
+DESCRIPTION=Microsemi Adaptec RAID Controller Command Line Utility
+EAPI=7
+HOMEPAGE=https://www.microsemi.com/
+IUSE=kernel_linux
+KEYWORDS=-* amd64
+LICENSE=Microsemi
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=http://download.adaptec.com/raid/storage_manager/arcconf_v3_07_23971.zip
+_eclasses_=linux-info	fac9fc514a517caeef5d45bf5a60411b	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa
+_md5_=3d2c42bde78b547f8aac9d2039f1a8b8
